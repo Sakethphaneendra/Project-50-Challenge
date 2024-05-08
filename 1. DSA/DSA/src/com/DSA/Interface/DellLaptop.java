@@ -1,0 +1,20 @@
+package com.DSA.Interface;
+
+public  class DellLaptop implements LaptopsProtocols {
+
+	public void Ram() {
+		System.out.println("Dell Having 4gb Ram on PC");
+	}
+	@Override
+	public void Processor() {
+		System.out.println("Dell Having I5 5th gen processor");
+	}
+	public void SSD() {
+		System.out.println("Dell Having 512GB SSD on PC");
+	}
+	public void GraphicCard() {
+		System.out.println("Dell Having 4GB Graphic Card on PC");
+	}
+
+	
+}

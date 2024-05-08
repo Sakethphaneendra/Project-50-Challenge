@@ -1,0 +1,10 @@
+package com.DSA.Interface;
+
+public class LaptopsCompare {
+
+	public static void main(String[] args) {
+		DellLaptop Dell = new DellLaptop();
+		Dell.Ram();
+	}
+
+}
