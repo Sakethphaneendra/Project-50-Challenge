@@ -1,0 +1,24 @@
+package ArraysPlayLIst;
+
+import java.util.*;
+public class Sum_Of_Elements {
+
+	public static void main(String[] args) {
+
+//		Write a Java program to find the sum of all elements in an integer array.
+		Scanner in = new Scanner(System.in);
+		int sum=0;
+		System.out.println("Enter Elements : ");
+		int Array[]=new int[10];
+		for(int i=0;i<Array.length;i++) {
+			Array[i]=in.nextInt();
+			sum=sum+Array[i];
+		}
+		in.close();
+		
+		System.out.print("Sum of Elements in Array = "+sum);
+		
+		
+	}
+
+}

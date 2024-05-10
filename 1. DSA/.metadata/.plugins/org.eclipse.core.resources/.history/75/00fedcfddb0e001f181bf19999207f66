@@ -1,0 +1,12 @@
+package ArraysPlayLIst;
+
+public class Removing_Duplicates {
+
+	public static void main(String[] args) {
+		//Write a Java program to remove duplicates from an unsorted integer array without using any additional data structure.
+		
+		int array[]= {3,42,6,2,3,3,65,85,96,2,34,67,23,45,65,42,85};
+
+	}
+
+}
