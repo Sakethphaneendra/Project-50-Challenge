@@ -1,0 +1,13 @@
+package Stack;
+import java.util.Stack;
+public class BasicOperation_Stack {
+
+	public static void main(String[] args) {
+
+		Stack s = new Stack();
+		s.add("Hello");
+		
+		System.out.println(s);
+	}
+
+}

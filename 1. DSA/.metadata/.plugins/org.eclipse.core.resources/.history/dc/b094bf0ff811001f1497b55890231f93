@@ -1,0 +1,42 @@
+package Stack;
+import java.util.Stack;
+public class BasicOperation_Stack {
+
+	public static void main(String[] args) {
+
+//		Stack<String> s = new Stack<String>();
+//		s.add("Hema");
+//		s.add("Saketh");
+//		s.add(1,"JayaSree");
+//		
+//		System.out.println(s);
+//		
+//		s.remove(0);
+//		System.out.println(s);
+//		
+//		System.out.println(s.contains("Love"));
+		
+//		1.Push
+//		2.Pop
+//		3.Peek
+//		4.Search  General Operations 
+		
+		Stack<String> Colors = new Stack<>();
+		
+		Colors.push("Red");
+		Colors.push("Peel");
+		Colors.push("Black");
+		System.out.println(Colors);
+		
+		System.out.println(Colors.peek());
+		System.out.println(Colors);
+		
+		System.out.println(Colors.search("Orange"));
+		System.out.println(Colors);
+		
+		System.out.println(Colors.empty());
+		System.out.println(Colors);
+
+	}
+
+}
