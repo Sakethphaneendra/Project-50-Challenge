@@ -1,7 +1,0 @@
-package com.DSA.OOPS;
-
-public class Developer {
-	void Write() {
-		System.out.println("Write Operation");
-	}
-}
